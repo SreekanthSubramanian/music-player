@@ -1,0 +1,19 @@
+.showcase-box img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb
+{
+    background:white;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background: white;
+}

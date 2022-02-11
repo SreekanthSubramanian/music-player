@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(134, 76, 189);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 20px;
+    cursor: pointer;
+}
+.brand img{
+    width: 100px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+
+    height: 520px;
+    background: linear-gradient(to right,black , rgb(56, 0, 58));
+    display: flex;
+    margin: 23px auto;
+    width: 95%;
+    border-radius: 12px;
+    padding: 15px;
+    color: white;
+}
+
+iframe{
+    position: absolute;
+    top: 135px;
+    left: 50px
+}
